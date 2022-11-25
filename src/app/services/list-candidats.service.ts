@@ -25,4 +25,12 @@ export class ListCandidatsService {
       new Candidat(2, 'NEW', 'CANDIDAT', 44, 'Directeur', 'homer.jpg')
     );
   }
+
+  editCandidat(id:any, employe:any) {
+    // this.allCandidates.push(
+    //   new Candidat(2, 'NEW', 'CANDIDAT', 44, 'Directeur', 'homer.jpg')
+    // );
+    console.log(id)
+    console.log(employe)
+  }
 }

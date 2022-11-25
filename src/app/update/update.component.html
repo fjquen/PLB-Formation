@@ -1,1 +1,15 @@
-<p>update works!</p>
+<div class="container">
+<form #updateEmployee="ngForm" (ngSubmit)="onSubmit(updateEmployee.value)">
+    <div class="d-flex flex-column w-25">
+        <label>prenom à modifier</label>
+        <input ngModel name="prenom" type="text">
+        <label>nom à modifier</label>
+        <input ngModel name="nom" type="text">
+        <label>page à modifier</label>
+        <input ngModel name="age" type="text">
+        <label>profession à modifier</label>
+        <input ngModel name="profession" type="text">
+        <button class="btn btn-primary w-25" type="submit">Valider</button>
+    </div>
+</form>
+</div>

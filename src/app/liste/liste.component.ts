@@ -6,7 +6,7 @@ import { ListCandidatsService } from '../services/list-candidats.service';
   selector: 'app-liste',
   templateUrl: './liste.component.html',
   styleUrls: ['./liste.component.css'],
-  providers: [ListCandidatsService],
+  providers: [],
 })
 export class ListeComponent implements OnInit {
   listeCandidats: Candidat[] = [];
